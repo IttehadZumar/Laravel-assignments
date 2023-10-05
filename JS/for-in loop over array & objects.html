@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <script>
+        // over array
+        var names = ["ittehad", "abdullah", "zumar"];
+
+        // for loop
+        for (var i =0; i<names.length; i++){
+            document.write(names[i]+" ")
+        }
+
+        document.write("<br>");
+
+        // for in loop
+        for(var name in names){
+            document.write(names[name] + " ");
+        }
+
+        document.write("<br>");
+        document.write("<br>");
+
+        // over object
+        var myPC = {
+                name: "hp",
+                screen: "17 inch",
+                isLaptop: "Yes",
+                ram: "8 gb",
+                hdd: "1 tb",
+                ssd: "256 gb",
+                processor: "core i-5"
+            }
+        // for in loop
+            for(var specification in myPC){
+                document.write(myPC[specification] +"<br>");
+            }
+
+    </script>
+</body>
+
+</html>
